@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L0gyE986fpP+e3dzEUPcezUm0zhj3f2lFi/VFpdVdK0TQyYtRhLMyMvZI5rrbagIQqpZySMsVKza6Geq5g1rpg==",
+  "dgSpecHash": "0g8AM5qgv6YxxgvPhIi4Gugi69BGG51jRM0JMeLNQD03BrHhBZ2qNlM8Nvcgllm4yEVELcNDhQjTGxTlkH9E/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dolgl\\Documents\\Visual Studio 2019\\Workspace\\Conversor\\Conversor.API\\Conversor.API.csproj",
+  "projectFilePath": "C:\\Users\\dolgl\\Documents\\Visual Studio 2019\\Workspace\\conversor\\Conversor.API\\Conversor.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dolgl\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\dolgl\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

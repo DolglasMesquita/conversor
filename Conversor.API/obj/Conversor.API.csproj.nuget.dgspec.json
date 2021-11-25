@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dolgl\\Documents\\Visual Studio 2019\\Workspace\\Conversor\\Conversor.API\\Conversor.API.csproj": {}
+    "C:\\Users\\dolgl\\Documents\\Visual Studio 2019\\Workspace\\conversor\\Conversor.API\\Conversor.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dolgl\\Documents\\Visual Studio 2019\\Workspace\\Conversor\\Conversor.API\\Conversor.API.csproj": {
+    "C:\\Users\\dolgl\\Documents\\Visual Studio 2019\\Workspace\\conversor\\Conversor.API\\Conversor.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dolgl\\Documents\\Visual Studio 2019\\Workspace\\Conversor\\Conversor.API\\Conversor.API.csproj",
+        "projectUniqueName": "C:\\Users\\dolgl\\Documents\\Visual Studio 2019\\Workspace\\conversor\\Conversor.API\\Conversor.API.csproj",
         "projectName": "Conversor.API",
-        "projectPath": "C:\\Users\\dolgl\\Documents\\Visual Studio 2019\\Workspace\\Conversor\\Conversor.API\\Conversor.API.csproj",
+        "projectPath": "C:\\Users\\dolgl\\Documents\\Visual Studio 2019\\Workspace\\conversor\\Conversor.API\\Conversor.API.csproj",
         "packagesPath": "C:\\Users\\dolgl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dolgl\\Documents\\Visual Studio 2019\\Workspace\\Conversor\\Conversor.API\\obj\\",
+        "outputPath": "C:\\Users\\dolgl\\Documents\\Visual Studio 2019\\Workspace\\conversor\\Conversor.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dolgl\\AppData\\Roaming\\NuGet\\NuGet.Config",
