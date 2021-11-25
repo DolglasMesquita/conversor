@@ -11,48 +11,109 @@ namespace Conversor.API.Controllers {
     [ApiController]
     public class TemperaturaController : Controller {
 
-        [HttpGet("{tempBase}/{valor:float}/{tempFinal}")]
-        public IActionResult ConversorTemperatura(string tempBase, float valor, string tempFinal) {
+        [HttpGet("celsius/{valor:float}/{tempFinal}")]
+        public IActionResult celsiusTo(float valor, string tempFinal) {
 
-            float resultado;
+            float resultado = convertCelsius(tempFinal, valor);
 
-            if (tempBase == "celsius") {
-                switch (tempFinal) {
-                    case "fahrenheit":
-                        resultado = (0 * 9 / 5) + 32;
-                        return Ok(resultado.ToString("F2", CultureInfo.InvariantCulture));
-                    case "kelvin":
-                        resultado = valor + 273.15f;
-                        return Ok(resultado.ToString("F2", CultureInfo.InvariantCulture));
-                    default:
-                        return BadRequest("Temperatura final inexistente");
-                }
-            } else if (tempBase == "fahrenheit") {
-                switch (tempFinal) {
-                    case "celsius":
-                        resultado = (valor - 32) * 5 / 9;
-                        return Ok(resultado.ToString("F2", CultureInfo.InvariantCulture));
-                    case "felvin":
-                        resultado = (valor - 32) * 5 / 9 + 273.15f;
-                        return Ok(resultado.ToString("F2", CultureInfo.InvariantCulture));
-                    default:
-                        return BadRequest("Temperatura final inexistente");
-                }
-            } else if (tempBase == "kelvin") {
-                switch (tempFinal) {
-                    case "celsius":
-                        resultado = valor - 273.15f;
-                        return Ok(resultado.ToString("F2", CultureInfo.InvariantCulture));
-                    case "fahrenheit":
-                        resultado = (valor - 273.15f) * 9 / 5 + 32;
-                        return Ok(resultado.ToString("F2", CultureInfo.InvariantCulture));
-                    default:
-                        return BadRequest("Temperatura final inexistente");
-                }
+            if (resultado != -1) {
+                return Ok(resultado.ToString("F2", CultureInfo.InvariantCulture));
+            } else {
+                return BadRequest("Insira uma temperatura válida.");
             }
 
-            return BadRequest("Temperatura inicial inexistente");
+        }
+
+        [HttpGet("fahrenheit/{valor:float}/{tempFinal}")]
+        public IActionResult FahrenheitTo(float valor, string tempFinal) {
+
+            float resultado = convertFahrenheit(tempFinal, valor);
+
+            if (resultado != -1) {
+                return Ok(resultado.ToString("F2", CultureInfo.InvariantCulture));
+            }
+            else {
+                return BadRequest("Insira uma temperatura válida.");
+            }
 
         }
+
+        [HttpGet("kelvin/{valor:float}/{tempFinal}")]
+        public IActionResult KelvinTo(float valor, string tempFinal) {
+
+            float resultado = convertKelvin(tempFinal, valor);
+
+            if (resultado != -1) {
+                return Ok(resultado.ToString("F2", CultureInfo.InvariantCulture));
+            }
+            else {
+                return BadRequest("Insira uma temperatura válida.");
+            }
+
+        }
+
+        private float convertCelsius(string tempFinal, float valor) {
+
+            float valorFinal;
+
+            switch(tempFinal) {
+                case "celsius":
+                    valorFinal = valor;
+                    break;
+                case "fahrenheit":
+                    valorFinal = (valor * 9/5) + 32;
+                    break;
+                case "kelvin":
+                    valorFinal = valor + 273.15f;
+                    break;
+                default:
+                    return -1;
+            }
+
+            return valorFinal;
+        }
+
+        private float convertFahrenheit(string tempFinal, float valor) {
+
+            float valorFinal;
+
+            switch (tempFinal) {
+                case "celsius":
+                    valorFinal = (valor - 32) * 5 / 9;
+                    break;
+                case "fahrenheit":
+                    valorFinal = valor;
+                    break;
+                case "kelvin":
+                    valorFinal = (valor - 32) * 5 / 9 + 273.15f;
+                    break;
+                default:
+                    return -1;
+            }
+
+            return valorFinal;
+        }
+
+        private float convertKelvin(string tempFinal, float valor) {
+
+            float valorFinal;
+
+            switch (tempFinal) {
+                case "celsius":
+                    valorFinal = valor - 273.15f;
+                    break;
+                case "fahrenheit":
+                    valorFinal = (valor - 273.15f) * 9 / 5 + 32;
+                    break;
+                case "kelvin":
+                    valorFinal = valor;
+                    break;
+                default:
+                    return -1;
+            }
+
+            return valorFinal;
+        }
+
     }
 }
