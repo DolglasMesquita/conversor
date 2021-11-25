@@ -193,19 +193,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dolgl\\.nuget\\packages\\": {}
+    "C:\\Users\\cdani\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dolgl\\Documents\\Visual Studio 2019\\Workspace\\Conversor\\Conversor.API\\Conversor.API.csproj",
+      "projectUniqueName": "C:\\Users\\cdani\\Documents\\Visual Studio\\conversor\\Conversor.API\\Conversor.API.csproj",
       "projectName": "Conversor.API",
-      "projectPath": "C:\\Users\\dolgl\\Documents\\Visual Studio 2019\\Workspace\\Conversor\\Conversor.API\\Conversor.API.csproj",
-      "packagesPath": "C:\\Users\\dolgl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dolgl\\Documents\\Visual Studio 2019\\Workspace\\Conversor\\Conversor.API\\obj\\",
+      "projectPath": "C:\\Users\\cdani\\Documents\\Visual Studio\\conversor\\Conversor.API\\Conversor.API.csproj",
+      "packagesPath": "C:\\Users\\cdani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cdani\\Documents\\Visual Studio\\conversor\\Conversor.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\dolgl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cdani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -254,7 +259,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -27,3 +27,31 @@ C:\Users\dolgl\Documents\Visual Studio 2019\Workspace\Conversor\Conversor.API\ob
 C:\Users\dolgl\Documents\Visual Studio 2019\Workspace\Conversor\Conversor.API\obj\Debug\net5.0\ref\Conversor.API.dll
 C:\Users\dolgl\Documents\Visual Studio 2019\Workspace\Conversor\Conversor.API\obj\Debug\net5.0\Conversor.API.pdb
 C:\Users\dolgl\Documents\Visual Studio 2019\Workspace\Conversor\Conversor.API\obj\Debug\net5.0\Conversor.API.genruntimeconfig.cache
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\bin\Debug\net5.0\appsettings.json
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\bin\Debug\net5.0\Conversor.API.exe
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\bin\Debug\net5.0\Conversor.API.deps.json
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\bin\Debug\net5.0\Conversor.API.runtimeconfig.json
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\bin\Debug\net5.0\Conversor.API.runtimeconfig.dev.json
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\bin\Debug\net5.0\Conversor.API.dll
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\bin\Debug\net5.0\ref\Conversor.API.dll
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\bin\Debug\net5.0\Conversor.API.pdb
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\obj\Debug\net5.0\Conversor.API.csproj.AssemblyReference.cache
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\obj\Debug\net5.0\Conversor.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\obj\Debug\net5.0\Conversor.API.AssemblyInfoInputs.cache
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\obj\Debug\net5.0\Conversor.API.AssemblyInfo.cs
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\obj\Debug\net5.0\Conversor.API.csproj.CoreCompileInputs.cache
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\obj\Debug\net5.0\Conversor.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\obj\Debug\net5.0\Conversor.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\obj\Debug\net5.0\staticwebassets\Conversor.API.StaticWebAssets.Manifest.cache
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\obj\Debug\net5.0\staticwebassets\Conversor.API.StaticWebAssets.xml
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\obj\Debug\net5.0\scopedcss\bundle\Conversor.API.styles.css
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\obj\Debug\net5.0\Conversor.API.RazorTargetAssemblyInfo.cache
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\obj\Debug\net5.0\Conversor.API.dll
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\obj\Debug\net5.0\ref\Conversor.API.dll
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\obj\Debug\net5.0\Conversor.API.pdb
+C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\obj\Debug\net5.0\Conversor.API.genruntimeconfig.cache
