@@ -14,7 +14,7 @@ namespace Conversor.API.Controllers
             float milimetro = convertMilimetro(valor, medida);
             if (milimetro < 0) return BadRequest("medida inválida");
 
-            return Ok("Valor em km: " + milimetro / 1000000);
+            return Ok(milimetro / 1000000);
         }
 
         [HttpGet("metro/{valor:float}/{medida}")]
@@ -24,7 +24,7 @@ namespace Conversor.API.Controllers
             float milimetro = convertMilimetro(valor, medida);
             if (milimetro < 0) return BadRequest("medida inválida");
 
-            return Ok("Valor em m: " + milimetro / 1000);
+            return Ok(milimetro / 1000);
         }
 
         [HttpGet("centimetro/{valor:float}/{medida}")]
@@ -34,7 +34,7 @@ namespace Conversor.API.Controllers
             float milimetro = convertMilimetro(valor, medida);
             if (milimetro < 0) return BadRequest("medida inválida");
 
-            return Ok("Valor em cm: " + milimetro / 100);
+            return Ok(milimetro / 100);
         }
 
         [HttpGet("milimetro/{valor:float}/{medida}")]
@@ -44,7 +44,7 @@ namespace Conversor.API.Controllers
             float milimetro = convertMilimetro(valor, medida);
             if (milimetro < 0) return BadRequest("medida inválida");
 
-            return Ok("Valor em mm: " + milimetro);
+            return Ok(milimetro);
         }
 
         private float convertMilimetro(float valor, string medida)

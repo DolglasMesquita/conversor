@@ -7,8 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Conversor.API
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\dolgl\Documents\Visual Studio 2019\Workspace\conversor\Conversor.API\
-=======
-build_property.ProjectDir = C:\Users\cdani\Documents\Visual Studio\conversor\Conversor.API\
->>>>>>> b05868843e8589557bb64d49621b77e7271aef2b
+build_property.ProjectDir = C:\Users\dolgl\Documents\Visual Studio 2019\Workspace\Conversor\Conversor.API\

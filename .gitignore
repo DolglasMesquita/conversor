@@ -17,18 +17,25 @@ gnore Visual Studio temporary files, build results, and
 *.userprefs
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
+debug/
+Debug/
+DebugPublic/
+debugPublic/
+release/
+Release/
+releases/
+Releases/
 x64/
 x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
+Bin/
+bin/
+obj/
+Obj/
+log/
+Log/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
