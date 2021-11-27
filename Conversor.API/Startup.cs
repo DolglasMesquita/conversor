@@ -27,6 +27,12 @@ namespace Conversor.API
         {
 
             services.AddControllers();
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            });
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Conversor.API", Version = "v1" });
@@ -42,6 +48,8 @@ namespace Conversor.API
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Conversor.API v1"));
             }
+
+            app.UseCors("CorsPolicy");
 
             app.UseRouting();
 

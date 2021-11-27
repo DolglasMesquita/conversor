@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 using System.Globalization;
 
 namespace Conversor.API.Controllers {
@@ -14,13 +15,13 @@ namespace Conversor.API.Controllers {
 
             switch (tempFinal)
             {
-                case "celsius":
+                case "c":
                     valorFinal = valor;
                     break;
-                case "fahrenheit":
+                case "f":
                     valorFinal = (valor * 9 / 5) + 32;
                     break;
-                case "kelvin":
+                case "k":
                     valorFinal = valor + 273.15f;
                     break;
                 default:
@@ -38,13 +39,13 @@ namespace Conversor.API.Controllers {
 
             switch (tempFinal)
             {
-                case "celsius":
+                case "c":
                     valorFinal = (valor - 32) * 5 / 9;
                     break;
-                case "fahrenheit":
+                case "f":
                     valorFinal = valor;
                     break;
-                case "kelvin":
+                case "k":
                     valorFinal = (valor - 32) * 5 / 9 + 273.15f;
                     break;
                 default:
@@ -63,13 +64,13 @@ namespace Conversor.API.Controllers {
 
             switch (tempFinal)
             {
-                case "celsius":
+                case "c":
                     valorFinal = valor - 273.15f;
                     break;
-                case "fahrenheit":
+                case "f":
                     valorFinal = (valor - 273.15f) * 9 / 5 + 32;
                     break;
-                case "kelvin":
+                case "k":
                     valorFinal = valor;
                     break;
                 default:

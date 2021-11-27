@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Conversor.API.Controllers
 {
@@ -7,7 +8,7 @@ namespace Conversor.API.Controllers
     public class ComprimentoController : Controller
     {
 
-        [HttpGet("kilometro/{valor:float}/{medida}")]
+        [HttpGet("km/{valor:float}/{medida}")]
         public IActionResult ToKm(float valor, string medida)
         {
             if (valor < 0) return BadRequest("Insira um valor maior que 0");
@@ -17,7 +18,7 @@ namespace Conversor.API.Controllers
             return Ok(milimetro / 1000000);
         }
 
-        [HttpGet("metro/{valor:float}/{medida}")]
+        [HttpGet("m/{valor:float}/{medida}")]
         public IActionResult ToM(float valor, string medida)
         {
             if (valor < 0) return BadRequest("Insira um valor maior que 0");
@@ -27,7 +28,7 @@ namespace Conversor.API.Controllers
             return Ok(milimetro / 1000);
         }
 
-        [HttpGet("centimetro/{valor:float}/{medida}")]
+        [HttpGet("cm/{valor:float}/{medida}")]
         public IActionResult ToCm(float valor, string medida)
         {
             if (valor < 0) return BadRequest("Insira um valor maior que 0");
@@ -37,7 +38,7 @@ namespace Conversor.API.Controllers
             return Ok(milimetro / 100);
         }
 
-        [HttpGet("milimetro/{valor:float}/{medida}")]
+        [HttpGet("mm/{valor:float}/{medida}")]
         public IActionResult ToMm(float valor, string medida)
         {
             if (valor < 0) return BadRequest("Insira um valor maior que 0");
